@@ -1,0 +1,29 @@
+Script started on 廿十八年六月十二日 (週二) 十四時41分40秒
+]0;pd2vm@pd2-vbox: ~/lab7[01;32mpd2vm@pd2-vbox[00m:[01;34m~/lab7[00m$ make
+g++ -c tetris.cpp
+g++ -c genMino.cpp
+g++ -c Mino.cpp
+g++ -c MinoI.cpp
+g++ -c MinoS.cpp
+g++ -c MinoL.cpp
+g++ -c MinoA.cpp
+g++ -c MinoB.cpp
+g++ -o lab7 tetris.o genMino.o Mino.o MinoI.o MinoS.o MinoL.o MinoA.o MinoB.o
+]0;pd2vm@pd2-vbox: ~/lab7[01;32mpd2vm@pd2-vbox[00m:[01;34m~/lab7[00m$ ./lab7
+0000
+0100
+0100
+0110
+MinoB
+0100
+0110
+0010
+0100
+MinoA
+0000
+0010
+0010
+0110
+]0;pd2vm@pd2-vbox: ~/lab7[01;32mpd2vm@pd2-vbox[00m:[01;34m~/lab7[00m$ exit
+
+Script done on 廿十八年六月十二日 (週二) 十四時41分59秒
